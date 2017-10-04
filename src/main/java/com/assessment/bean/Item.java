@@ -6,7 +6,7 @@ package com.assessment.bean;
 public class Item {
 
 	private String description;
-	private float price1;
+	private float price;
 
 	/**
 	 * Constructs an Item
