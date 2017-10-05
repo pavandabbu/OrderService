@@ -20,11 +20,11 @@ import com.assessment.util.Calculator;
  */
 public class CalculatorTest {
 
-	Calculator calculator;
+	Calculator calculator1;
 
 	@Before
 	public void setUp() {
-		calculator = new Calculator();
+		calculator1 = new Calculator();
 	}
 
 	/**
