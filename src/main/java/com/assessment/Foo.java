@@ -53,7 +53,7 @@ public class Foo {
 		c.add(new OrderLine(new Item("chocolate bar", (float) 0.85), 1));
 
 		// Add order to the map
-		o.put("Order 1", c);
+		o.put("Order 1", c)
 
 		// Create a new Order
 		c = new Order();
