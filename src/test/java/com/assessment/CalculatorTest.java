@@ -78,7 +78,7 @@ public class CalculatorTest {
 		// Add order to the map
 		orderMap.put("Order 3", c);
 
-		double total = calculator.calculate(orderMap);
+		double total = calculator1.calculate(orderMap);
 		Assert.assertEquals(153.81, total, 0.01);
 
 	}
